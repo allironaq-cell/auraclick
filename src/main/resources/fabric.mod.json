@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "clickmacro",
+  "version": "${version}",
+  "name": "ClickMacro",
+  "description": "A simple auto-clicker with a settings menu. Client-side only.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.clickmacro.ClickMacroMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
